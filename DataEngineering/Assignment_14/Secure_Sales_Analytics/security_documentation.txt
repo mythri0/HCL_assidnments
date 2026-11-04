@@ -1,0 +1,43 @@
+SECURITY DOCUMENTATION
+Project: Secure Sales Analytics Pipeline
+
+1. DATA AT REST
+
+Data at rest means data stored in databases, hard drives, or cloud storage.
+
+Security measures:
+- Use AES-256 encryption to protect sensitive customer information stored in databases.
+- Enable database encryption and encrypted cloud storage.
+- Store encryption keys securely using AWS KMS or Azure Key Vault.
+- Apply role-based access control (RBAC) so only authorized users can access customer information.
+- Take encrypted backups regularly.
+- Avoid storing unnecessary customer personal information.
+
+2. DATA IN TRANSIT
+
+Data in transit means data moving between applications, servers, and databases through a network.
+
+Security measures:
+- Use HTTPS to secure communication between applications and servers.
+- Use TLS 1.2 or TLS 1.3 encryption to protect information during transmission.
+- Use secure database connections.
+- Never transmit passwords or sensitive customer information through plain HTTP.
+- Validate certificates to ensure secure communication.
+- Use authentication and access control for API requests.
+
+3. SQL INJECTION PREVENTION
+
+- Use parameterized SQL queries instead of directly joining user input into SQL statements.
+- Validate user inputs before executing database operations.
+- Use the principle of least privilege for database accounts.
+
+4. DATA MASKING
+
+- Mask customer email addresses before displaying them.
+- Hide the first six digits of customer phone numbers.
+- Display only necessary customer information for analytics.
+- Restrict access to original sensitive information.
+
+CONCLUSION
+
+This project demonstrates secure SQL querying, SQL injection prevention, PII data masking, and important security measures for protecting customer information at rest and in transit in a cloud-based sales analytics pipeline.
