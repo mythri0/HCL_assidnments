@@ -1,0 +1,35 @@
+
+[
+  {
+    "product_id": 101,
+    "product_name": "Bamboo Toothbrush",
+    "category": "Personal Care",
+    "price": 50,
+    "stock_quantity": 100,
+    "material_type": "Bamboo"
+  },
+  {
+    "product_id": 102,
+    "product_name": "Cotton Bag",
+    "category": "Accessories",
+    "price": 120,
+    "stock_quantity": 50,
+    "material_type": "Cotton"
+  },
+  {
+    "product_id": 103,
+    "product_name": "Steel Bottle",
+    "category": "Kitchen",
+    "price": 350,
+    "stock_quantity": 30,
+    "material_type": "Stainless Steel"
+  },
+  {
+    "product_id": 104,
+    "product_name": "Paper Notebook",
+    "category": "Stationery",
+    "price": 80,
+    "stock_quantity": 75,
+    "material_type": "Paper"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "name": "user_id",
+    "type": "INTEGER"
+  },
+  {
+    "name": "page_url",
+    "type": "STRING"
+  },
+  {
+    "name": "timestamp",
+    "type": "TIMESTAMP"
+  }
+]

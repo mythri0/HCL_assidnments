@@ -1,0 +1,11 @@
+sale_id,sale_date,product_id,product_name,category,quantity,unit_price
+S001,2026-10-01,P001,Laptop,Electronics,2,50000
+S002,2026-10-01,P002,Mouse,Accessories,5,500
+S003,2026-10-02,P003,Keyboard,Accessories,3,1200
+S004,2026-10-02,P001,Laptop,Electronics,1,50000
+S005,2026-10-03,P004,Monitor,Electronics,2,12000
+S006,2026-10-03,P002,Mouse,Accessories,0,500
+S007,2026-10-04,P005,Headphones,Accessories,4,2000
+S008,2026-10-04,P003,Keyboard,Accessories,2,1200
+S009,2026-10-05,P004,Monitor,Electronics,1,12000
+S010,2026-10-05,P005,Headphones,Accessories,0,2000
