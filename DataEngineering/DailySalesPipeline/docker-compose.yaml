@@ -1,0 +1,23 @@
+
+services:
+  airflow:
+    build: .
+    container_name: daily-sales-airflow
+    command: standalone
+    ports:
+      - "8080:8080"
+
+    environment:
+      AIRFLOW__CORE__EXECUTOR: SequentialExecutor
+      AIRFLOW__CORE__LOAD_EXAMPLES: "False"
+      AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: "False"
+
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./staging:/opt/airflow/staging:ro
+      - ./scripts:/opt/airflow/scripts
+      - ./presentation:/opt/airflow/presentation
+      - ./logs:/opt/airflow/logs
+
+    restart: unless-stopped
+    mem_limit: 3g

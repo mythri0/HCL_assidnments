@@ -1,0 +1,11 @@
+order_id,customer_id,product,quantity,unit_price,region
+1001,C101,Laptop,2,55000,South
+1002,C102,Mouse,5,500,North
+1003,C103,Keyboard,3,1500,East
+1004,C104,Monitor,2,12000,West
+1005,C105,Laptop,1,55000,South
+1006,C106,Mouse,4,500,North
+1007,C107,Keyboard,2,1500,East
+1008,C108,Monitor,3,12000,West
+1009,C109,Laptop,1,55000,South
+1010,C110,Mouse,6,500,North
